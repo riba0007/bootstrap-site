@@ -27,6 +27,7 @@ h1,h2,h3,h4{
 }
 .btn-blue {
     background-color: hsl(209, 62%, 58%);
+    transition: fill 0.2s;
 }
 .btn-blue:hover {
     background-color: hsl(209,56%,52%);
@@ -76,10 +77,10 @@ footer {
     transition: fill 0.2s;
 }
 .iconic:hover {
-  fill: hsl(30, 100%, 95%);
+  fill: hsl(30, 100%, 90%);
 }
 .iconic:active {
-  fill: hsl(30, 100%, 90%);
+  fill: hsl(30, 100%, 85%);
 }
 @media (min-width: 544px) {
     /*bootstrap 4 card-columns bug fix*/
